@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.company-logo {
+    position: relative;
+    min-width: 25%;
+    max-width: 22%;
+    height: 100%;
+    margin: 23px;
+}
+
+.sign-in {
+    color: white;
+    border: none;
+    background: red;
+    width: 4.3em;
+    height: 2em;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 0.9em;
+    font-weight: 400;
+    margin: auto;
+    margin-right: 20px;
+    position: relative;
+    padding: 5px;
+}
+
+.query-section {
+    background-image: url(sectionImage.jpg);
+    height: 66vh;
+    width: 100%;
+    line-height: 2em;
+}
+
+.query-text-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.query-heading {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 80px;
+    font-size: 1.6em;
+    margin-bottom: 15px;
+}
+
+span.capital {
+    text-transform: uppercase;
+}
+
+p.query-sub-1 {
+    font-size: large;
+    font-weight: lighter;
+    text-transform: capitalize;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+p.query-sub-2 {
+    text-align: center;
+    text-transform: capitalize
+    ;
+    font-size: large;
+    margin-bottom: 7px;
+}
+
+input.query-email {
+    width: 90%;
+    height: 4em;
+    margin-bottom: 16px;
+}
+
+button.query-submit-btn {
+    color: white;
+    border: none;
+    background: red;
+    width: 11em;
+    height: 3em;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 0.9em;
+    font-weight: 400;
+    margin: auto;
+    position: relative;
+    padding: 16px;
+}
+
+input::placeholder {
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+section.tv-card {
+    text-align: center;
+    text-transform: capitalize;
+    background-color: black;
+    height: 40vh;
+    padding: 80px;
+}
+
+div.tv-card-text {
+    color: white;
+}
