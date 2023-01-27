@@ -1,0 +1,377 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.company-logo {
+    position: relative;
+    min-width: 20%;
+    max-width: 18%;
+    height: 100%;
+    margin: 23px;
+}
+
+.sign-in {
+    color: white;
+    border: none;
+    background: red;
+    width: 4.4em;
+    height: 2.5em;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 0.9em;
+    font-weight: 400;
+    margin: auto;
+    margin-right: 20px;
+    position: relative;
+    padding: 5px;
+}
+
+.query-section {
+    background-image: url(sectionImage.jpg);
+    height: 90vh;
+    width: 100%;
+    line-height: 2em;
+    padding: 0 30px;
+    border-bottom: 10px solid rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.query-text-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.query-heading {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 80px;
+    font-size: 50px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+span.capital {
+    text-transform: uppercase;
+}
+
+p.query-sub-1 {
+    font-size: 30px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+p.query-sub-2 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: large;
+    margin-bottom: 7px;
+}
+
+input.query-email {
+    width: 90%;
+    height: 3.5em;
+    margin-bottom: 16px;
+    text-indent: 20px;
+    font-size: 17px;
+}
+
+button.query-submit-btn {
+    color: white;
+    border: none;
+    background: red;
+    width: 11em;
+    height: 3.5em;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 0.9em;
+    font-weight: 400;
+    margin: auto;
+    padding: 16px;
+    cursor: pointer;
+}
+
+button.query-submit-btn:hover {
+    opacity: 60%;
+}
+
+input::placeholder {
+    padding: 0 1px;
+    text-transform: capitalize;
+}
+
+
+section.tv-card {
+    text-align: center;
+    text-transform: capitalize;
+    background-color: black;
+    height: 60vh;
+    padding: 80px;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(tv.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 10px solid rgba(255, 255, 255, 0.5);
+}
+
+h1.tv-card-header {
+    font-size: 2.2em;
+}
+
+div.tv-card-text {
+    color: white;
+    font-size: 1.2em;
+}
+
+p.tv-card-sub-header {
+    margin: 44px 10px;
+}
+
+.second-tv-card {
+    text-align: center;
+    text-transform: capitalize;
+    background-color: black;
+    height: 40vh;
+    padding: 80px;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 10px solid rgba(255, 255, 255, 0.5);
+}
+
+h1.tv-card-header-2 {
+    font-size: 2.2em;
+    margin-top: 50px;
+}
+
+div.tv-card-text-2 {
+    color: white;
+    font-size: 1.2em;
+}
+
+p.tv-card-sub-header-2 {
+    margin: 44px 10px;
+    margin-top: 10px;
+}
+
+.second-tv-card-3 {
+    text-align: center;
+    text-transform: capitalize;
+    background-color: black;
+    min-height: 60vh;
+    padding: 80px;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-image: url(kids\ image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 10px solid rgba(255, 255, 255, 0.5);
+}
+
+
+h1.tv-card-header-3 {
+    font-size: 2.2em;
+    margin-top: 50px;
+    padding: 10px 20px;
+}
+
+div.tv-card-text-3 {
+    position: absolute;
+    color: white;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10em;
+}
+
+p.tv-card-sub-header-3 {
+    margin: 44px 10px;
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+
+section.second-tv-card-4 {
+    text-align: center;
+    text-transform: capitalize;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 10px solid rgba(255, 255, 255, 0.5);
+}
+
+
+h1.tv-card-header-4 {
+    font-size: 2.2em;
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+
+div.tv-card-text-4 {
+    position: absolute;
+    color: white;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10em;
+}
+
+p.tv-card-sub-header-4 {
+    margin: 44px 10px;
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+
+
+input.query-image-2 {
+    width: 90%;
+    height: 4em;
+    margin-bottom: 16px;
+    text-indent: 18px;
+    font-size: 17px;
+    margin: auto;
+}
+
+div.blocks-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20em;
+    height: 100vh;
+    width: 100%;
+    padding: 40px;
+}
+
+h2.card-title {
+    font-size: 1.3em;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+div.about {
+    width: 100%;
+    min-width: 50%;
+    height: 10%;
+    padding: 20px 10px;
+    background-color: #303030;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    cursor: pointer;
+}
+div.cost {
+    width: 100%;
+    min-width: 50%;
+    height: 10%;
+    padding: 20px 10px;
+    background-color: #303030;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    cursor: pointer;
+}
+div.location {
+    width: 100%;
+    height: 10%;
+    min-width: 50%;
+    padding: 20px 10px;
+    background-color: #303030;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    cursor: pointer;
+}
+div.cancel {
+    width: 100%;
+    height: 10%;
+    min-width: 50%;
+    padding: 20px 10px;
+    background-color: #303030;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    cursor: pointer;
+}
+div.programmes {
+    width: 100%;
+    height: 10%;
+    min-width: 50%;
+    padding: 20px 10px;
+    background-color: #303030;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    cursor: pointer;
+}
+div.parental-guidance {
+    width: 100%;
+    height: 10%;
+    min-width: 50%;
+    padding: 20px 10px;
+    background-color: #303030;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    cursor: pointer;
+}
+
