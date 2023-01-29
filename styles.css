@@ -9,6 +9,7 @@ body {
     height: 100vh;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
+    color: white;
 }
 
 div.header {
@@ -189,7 +190,6 @@ p.tv-card-sub-header-2 {
 
 .second-tv-card-3 {
     text-transform: capitalize;
-    background-color: black;
     height: 60vh;
     display: flex;
     flex-direction: column;
@@ -198,7 +198,9 @@ p.tv-card-sub-header-2 {
     background-image: url(kids\ image.png);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     border-bottom: 10px solid rgba(255, 255, 255, 0.5);
+    padding: 4em;
 }
 
 
@@ -367,7 +369,7 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 
 div.enquiries {
