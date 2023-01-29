@@ -188,17 +188,13 @@ p.tv-card-sub-header-2 {
 }
 
 .second-tv-card-3 {
-    text-align: center;
     text-transform: capitalize;
     background-color: black;
-    min-height: 60vh;
-    padding: 80px;
-    max-width: 100vw;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-content: center;
     background-image: url(kids\ image.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -208,8 +204,7 @@ p.tv-card-sub-header-2 {
 
 h1.tv-card-header-3 {
     font-size: 2.2em;
-    margin-top: 50px;
-    padding: 10px 20px;
+
 }
 
 div.tv-card-text-3 {
