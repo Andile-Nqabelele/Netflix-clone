@@ -8,6 +8,7 @@ body {
     width: 100vw;
     height: 100vh;
     font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
 }
 
 div.header {
@@ -17,10 +18,11 @@ div.header {
 
 .company-logo {
     position: relative;
-    min-width: 20%;
-    max-width: 18%;
+    min-width: 15%;
+    max-width: 20%;
     height: 100%;
     margin: 23px;
+    padding: 0px 30px;
 }
 
 .sign-in {
@@ -35,16 +37,15 @@ div.header {
     font-weight: 400;
     margin: auto;
     margin-right: 20px;
-    position: relative;
     padding: 5px;
 }
 
 .query-section {
-    background-image: url(sectionImage.jpg);
+    background-image:  url(sectionImage.jpg);
     height: 90vh;
     width: 100%;
     line-height: 2em;
-    padding: 0 30px;
+    padding: 20px 30px;
     border-bottom: 10px solid rgba(255, 255, 255, 0.5);
     display: flex;
     flex-direction: column;
@@ -58,6 +59,7 @@ div.header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px 19px;
 }
 
 h1.query-heading {
@@ -94,6 +96,7 @@ input.query-email {
     margin-bottom: 16px;
     text-indent: 20px;
     font-size: 17px;
+    outline: none;
 }
 
 button.query-submit-btn {
@@ -112,12 +115,13 @@ button.query-submit-btn {
 }
 
 button.query-submit-btn:hover {
-    opacity: 60%;
+    background-color: rgb(161, 0, 0);
 }
 
 input::placeholder {
     padding: 0 1px;
     text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -225,26 +229,30 @@ p.tv-card-sub-header-3 {
 }
 
 section.second-tv-card-4 {
-    text-align: center;
     text-transform: capitalize;
     background-color: black;
-    height: 100vh;
+    height: 130vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-content: center;
-    background-position: center;
-    background-repeat: no-repeat;
     border-bottom: 10px solid rgba(255, 255, 255, 0.5);
+    padding: 12em 3em;
 }
 
+div.blocks-container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 h1.tv-card-header-4 {
     font-size: 2.2em;
-    margin-top: 50px;
-    margin-bottom: 45px;
+    text-align: center;
+    padding: 30px;
 }
 
 div.tv-card-text-4 {
@@ -258,120 +266,174 @@ div.tv-card-text-4 {
 }
 
 p.tv-card-sub-header-4 {
-    margin: 44px 10px;
-    margin-top: 10px;
-    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    padding: 25px;
 }
 
 
 input.query-image-2 {
-    width: 90%;
-    height: 4em;
-    margin-bottom: 16px;
-    text-indent: 18px;
-    font-size: 17px;
-    margin: auto;
+    border: none;
+    width: 18em;
+    height: 3.5em;
+    text-transform: capitalize;
+    font-size: 0.9em;
+    font-weight: 300;
+    margin-bottom: 50px 60px;
+    padding: 20px;
+    outline: none;
 }
 
-div.blocks-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20em;
-    height: 100vh;
-    width: 100%;
-    padding: 40px;
-}
+.membership-btn {
+    color: white;
+    border: none;
+    background: red;
+    width: 11em;
+    height: 3.5em;
+    text-transform: capitalize;
+    font-size: 0.9em;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+} 
+
 
 h2.card-title {
     font-size: 1.3em;
     text-align: center;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.2px;
+    padding: 20px;
 }
 
 div.about {
     width: 100%;
-    min-width: 50%;
-    height: 10%;
-    padding: 20px 10px;
     background-color: #303030;
-    margin: 1%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: space-between;
+    margin: 10px;
     cursor: pointer;
+    padding: ;
 }
+
 div.cost {
     width: 100%;
-    min-width: 50%;
-    height: 10%;
-    padding: 20px 10px;
+    /* padding: 20px 10px; */
     background-color: #303030;
     margin: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: space-between;
     cursor: pointer;
 }
-div.location {
+
+ div.location {
     width: 100%;
-    height: 10%;
-    min-width: 50%;
-    padding: 20px 10px;
+    /* padding: 20px 10px; */
     background-color: #303030;
     margin: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: space-between;
     cursor: pointer;
 }
+
+
 div.cancel {
     width: 100%;
-    height: 10%;
-    min-width: 50%;
-    padding: 20px 10px;
+    /* padding: 20px 10px; */
     background-color: #303030;
     margin: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: space-between;
     cursor: pointer;
 }
+
 div.programmes {
     width: 100%;
-    height: 10%;
-    min-width: 50%;
-    padding: 20px 10px;
+    /* padding: 20px 10px; */
     background-color: #303030;
     margin: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: space-between;
     cursor: pointer;
 }
+
+
 div.parental-guidance {
     width: 100%;
-    height: 10%;
-    min-width: 50%;
-    padding: 20px 10px;
+    /* padding: 20px 10px; */
     background-color: #303030;
-    margin-top: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-content: space-between;
-    cursor: pointer;
+    padding: 10px 40px;
+    width: 100%;
 }
+
+
+.footer-section {
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+div.enquiries {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin-bottom: 5em;
+}
+
+
+p.contact{
+    color: white;
+}
+
+
+@media only screen and (max-width: 412px ) {
+    .query-submit {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1.tv-card-header-4 {
+        font-size: 0.5em;
+        padding: 10px 19px;
+    }
+
+    .membership-btn {
+        margin: 20px;
+    }
+}
+  
+@media only screen and (max-width: 428px ) {
+    .query-submit {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1.tv-card-header-4 {
+        font-size: 0.5em;
+        padding: 10px 19px;
+    }
+
+    .membership-btn {
+        margin: 20px;
+    }
+}
+  
+
+
 
