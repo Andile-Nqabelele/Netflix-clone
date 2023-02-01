@@ -12,15 +12,14 @@ body {
     color: white;
 }
 
+
 div.header {
     display: flex;
     flex-direction: row;
 }
 
 .company-logo {
-    position: relative;
-    min-width: 15%;
-    max-width: 20%;
+    width: 240px;
     height: 100%;
     margin: 23px;
     padding: 0px 30px;
@@ -41,12 +40,22 @@ div.header {
     padding: 5px;
 }
 
+.sign-in-link {
+    text-decoration: none;
+    color: white;
+}
+
+.sign-in {
+    cursor: pointer;
+}
+
+
 .query-section {
     background-image:  url(sectionImage.jpg);
     height: 90vh;
     width: 100%;
     line-height: 2em;
-    padding: 20px 30px;
+    padding: 0 80px;
     border-bottom: 10px solid rgba(255, 255, 255, 0.5);
     display: flex;
     flex-direction: column;
@@ -196,7 +205,7 @@ p.tv-card-sub-header-2 {
     justify-content: center;
     align-items: center;
     background-image: url(kids\ image.png);
-    background-position: center;
+    background-position: contain;
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 10px solid rgba(255, 255, 255, 0.5);
@@ -292,7 +301,7 @@ input.query-image-2 {
     font-weight: 500;
     cursor: pointer;
     outline: none;
-} 
+}
 
 
 h2.card-title {
@@ -366,10 +375,44 @@ form {
     width: 100%;
     height: 60vh;
     background-color: black;
+    display: grid;
+    place-items: center;
+    padding: 10px 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: auto 1fr 1fr 2fr;
+    grid-template-rows: auto;
+}
+
+p.contact {
+    padding: 30px 0px;
+}
+
+.footer-text {
+    padding: 5px;
+}
+
+.footer-text a {
+    color: #303030;
+}
+
+.footer-text a {
+    color: #303030;
+    text-decoration: none;
+}
+
+.footer-text a:hover {
+    text-decoration: underline;
+}
+
+.company-name {
+    padding: 30px 0px;
 }
 
 div.enquiries {
@@ -406,7 +449,7 @@ p.contact{
         margin: 20px;
     }
 }
-  
+
 @media only screen and (max-width: 428px ) {
     .query-submit {
         display: flex;
@@ -430,7 +473,95 @@ p.contact{
         margin: 20px;
     }
 }
-  
 
+
+
+/* Sign in page */
+section.sign-in-page {
+    background-image: url(sectionImage.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+div.sign-in-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form.sign-in-form {
+    width: 50%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin: 20px;
+}
+
+h1.form-header {
+    margin: 40px;
+    margin-left: -120px;
+    font-size: 2em;
+}
+
+
+#email-number {
+    width: 20em;
+    height: 3.5em;
+    margin: 5px;
+    outline: none;
+    border: none;
+}
+
+#email-number::placeholder {
+    padding: 20px;
+}
+
+
+#password {
+    width: 20em;
+    height: 3.5em;
+    margin: 5px;
+    outline: none;
+    border: none;
+}
+
+#password::placeholder {
+    text-indent: 20px;
+}
+
+.sign-in-2 {
+    width: 266px;
+    height: 3.5em;
+    background-color: 	#E50914;
+    font-size: 16px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 20px;
+}
+
+.sign-in-2:hover {
+    cursor: pointer;
+    filter: brightness(95%);
+}
+
+
+
+/* media only screen and (max-width: 762px ) {
+    .company-logo {
+
+    }
+}
+ */
 
 
